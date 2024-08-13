@@ -15,14 +15,16 @@ const resolver = {
     }
 }
 
-const server ={
+const server = new ApolloServer({
     typeDefs : typeDefs,
     resolvers: resolver,
-    plugins:{
-        ApolloServerPluginLandingPageGraphQLPlayground
-    }
-}
+   // plugins:ApolloServerPluginLandingPageGraphQLPlayground()
+    // plugins:{
+    //     ApolloServerPluginLandingPageGraphQLPlayground
+    // }
+});
 
+ //server.listen(4000);
  server.listen().then(({url})=>{
  console.log(`server ready at ${url}`)
  });
