@@ -9,12 +9,7 @@
         },
         {
             "title": "To-Do",
-            "tasks": [
-                {
-                    "text": "hi",
-                    "id": "pyw8jmrum1k0o1dq5uep2b4i"
-                }
-            ],
+            "tasks": [],
             "id": "cjl58hc3tydd1urkq8gi1hjk",
             "color": "#fcb900"
         },
@@ -33,5 +28,5 @@
     ],
     "autosave": true,
     "saveToFile": true,
-    "timestamp": 1725375600105
+    "timestamp": 1725376296818
 }
