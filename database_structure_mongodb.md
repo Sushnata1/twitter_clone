@@ -34,7 +34,7 @@
     - `user_id` (ObjectId): reference to users collection
     - `created_at`: Date
 
-5. hashtags
+5. `hashtags`
     - `_id` (ObjectId): unique hashtag ID
     - `name`: string
     - `created_at`: Date
