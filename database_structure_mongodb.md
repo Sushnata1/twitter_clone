@@ -1,5 +1,5 @@
 
-#Collections:
+# Collections:
 
 
 1. `users`
@@ -59,7 +59,7 @@
     - `reaction_type`: string (e.g., "like", "love")
     - `created_at`: Date
 
-#MongoDB Indexes:
+# MongoDB Indexes:
 
 - `users`: `{ username: 1 }, { email: 1 }`
 - `chirps`: `{ user_id: 1 }, { created_at: 1 }`
