@@ -9,7 +9,7 @@
     - `password`: string (hashed)
     - `name`: string
     - `profilePicture`: Binary Data
-    - `headerImage`: Binary Data
+    - `coverPicture`: Binary Data
     - `bio`: string
     - `created_at`: Date
     - `updated_at`: Date
