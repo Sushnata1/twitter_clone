@@ -1,3 +1,3 @@
 # Picture apis
-- Profile pic :  https://api.dicebear.com/9.x/pixel-art/svg?seed=username
+- Profile pic :  https://api.dicebear.com/9.x/pixel-art/svg?seed=username&size=96
 - Cover pic : https://picsum.photos/seed/username/851/315
